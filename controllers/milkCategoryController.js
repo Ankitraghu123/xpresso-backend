@@ -1,6 +1,6 @@
-const MilkCategory = require("../models/MilkCategory");
 const fs = require("fs");
-const milkProduct = require("../models/milkProduct");
+const MilkCategory = require("../models/MilkCategory");
+const milkProduct = require("../models/MilkProduct");
 
 exports.getProductsByMilkCategoryId = async (req, res) => {
   try {
