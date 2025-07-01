@@ -1,4 +1,4 @@
-const milkProduct = require("../models/milkProduct");
+const milkProduct = require("../models/MilkProduct");
 
 exports.createMilkProduct = async (req, res) => {
   try {

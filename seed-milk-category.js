@@ -1,7 +1,7 @@
 // seeds/seedAll.js
 const mongoose = require("mongoose");
 const MilkCategory = require("./models/MilkCategory");
-const milkProduct = require("./models/milkProduct");
+const milkProduct = require("./models/MilkProduct");
 
 const categories = [
   "Amul Dairy",

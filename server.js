@@ -48,7 +48,7 @@ app.use(
 app.use("/api/grocery/products", require("./routes/groceryProductRoutes"));
 app.use("/api/fruits-vegetables", require("./routes/fruitsVegRoutes"));
 app.use("/api/milk", require("./routes/milkcategory"));
-app.use("/api/milk-products", require("./routes/milkProduct.routes"));
+app.use("/api/milk-products", require("./routes/MilkProduct.routes"));
 app.use("/api/book-slot", require("./routes/appointment"));
 // app.use( departmentRoutes);
 
