@@ -9,7 +9,7 @@ const {
   getByCategoryId,
   updateMilkProduct,
   deleteMilkProduct,
-} = require("../controllers/MilkProduct.controller");
+} = require("../controllers/milkProduct.controller");
 
 // Routes
 router.post("/create", upload.single("image"), createMilkProduct);
